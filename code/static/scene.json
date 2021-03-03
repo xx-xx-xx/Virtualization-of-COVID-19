@@ -1,0 +1,42 @@
+{
+    "sceneTree": {
+        "root": {
+            "children": [
+                {
+                    "title": "底图", 
+                    "expand": false, 
+                    "children": [
+                        {
+                            "ref": "shense", 
+                            "czmObject": {
+                                "xbsjType": "Imagery", 
+                                "xbsjGuid": "ad171588-01f9-4d30-968b-7af1850627dd", 
+                                "name": "深色底图", 
+                                "xbsjImageryProvider": {
+                                    "XbsjImageryProvider": {
+                                        "url": "https://map.geoq.cn/arcgis/rest/services/ChinaOnlineCommunityENG/MapServer/tile/{z}/{y}/{x}", 
+                                        "srcCoordType": "", 
+                                        "dstCoordType": ""
+                                    }, 
+                                    "UrlTemplateImageryProvider": { }, 
+                                    "WebMapTileServiceImageryProvider": { }, 
+                                    "createTileMapServiceImageryProvider": { }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "weather": {
+        "fog": { }, 
+        "sun": { }, 
+        "skyBox": { }, 
+        "moon": { }, 
+        "rain": { }, 
+        "snow": { }, 
+        "cloud": { }, 
+        "atmosphere": { }
+    } 
+}
